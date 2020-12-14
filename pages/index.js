@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Ross Nichols Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,6 +16,10 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to My Portfolio!
         </h1>
+
+        <p className={styles.description}>
+          Hi! Thanks for stopping by my portfolio. My name is Ross and I'm a full-stack software engineer. You can learn more about, view my projects, and find my contact information by clicking on the boxes below.
+        </p>
 
         <div className={styles.grid}>
           <a href="/about" className={styles.card}>
