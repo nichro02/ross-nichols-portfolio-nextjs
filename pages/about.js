@@ -3,10 +3,10 @@ import React from 'react'
 //components
 //import Spinner from './common/Spinner'
 
-const Projects = () => {
+const About = () => {
     return(
-        <div>Projects go here</div>
+        <div>About goes here</div>
     )
 }
 
-export default Projects
+export default About
