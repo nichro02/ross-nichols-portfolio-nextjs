@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+//import Link component to enable navigation within app
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,20 +17,15 @@ export default function Home() {
           Welcome to My Portfolio!
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="/about" className={styles.card}>
+            <h3>About &rarr;</h3>
+            <p>Learn more about me</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="/projects" className={styles.card}>
+            <h3>Projects &rarr;</h3>
+            <p>Look at what I've been working on</p>
           </a>
 
           <a
