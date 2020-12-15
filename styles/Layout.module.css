@@ -1,5 +1,48 @@
 .container {
-    max-width: 36rem;
+    max-width: 70rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
+}
+
+.navBar {
+    background-color: #d2f8d2;
+    height: 30%;
+}
+
+.introBlock {
+    width: 80%;
+}
+
+.greetingText {
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+    padding-left: 5%;
+}
+
+.introText {
+    text-align: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+}
+
+
+.navLinkHeader {
+    height: 100%;
+    padding-left: 4%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navLinks {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

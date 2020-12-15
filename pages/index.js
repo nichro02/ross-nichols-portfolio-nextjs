@@ -1,11 +1,15 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
 //import Link component to enable navigation within app
 import Link from 'next/link'
+import Layout from '../components/layout'
+
+import styles from '../styles/Home.module.css'
+
+
 
 export default function Home() {
   return (
+    <Layout>
     <div className={styles.container}>
       <Head>
         <title>Ross Nichols Portfolio</title>
@@ -18,7 +22,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Hi! Thanks for stopping by my portfolio. My name is Ross and I'm a full-stack software engineer. You can learn more about, view my projects, and find my contact information by clicking on the boxes below.
+          Thanks for stopping by! You can learn more about me, view my projects, and find my contact information by clicking on the boxes below.
         </p>
 
         <div className={styles.grid}>
@@ -41,17 +45,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
+    </Layout>
   )
 }

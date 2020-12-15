@@ -50,19 +50,19 @@ const Projects = () => {
     
     return(
         <Layout>
-        <Head>
-            <title>Projects</title>
-        </Head>
-        <div className="container">
-            <div className="row">{display()}</div>
-        </div>
-        <h6>
-            <Link href='/'>
-                <a>
-                    &larr; Back to homepage
-                </a>
-            </Link>
-        </h6>
+            <Head>
+                <title>Projects</title>
+            </Head>
+            <div className="container">
+                <div className="row">{display()}</div>
+            </div>
+            <h6>
+                <Link href='/'>
+                    <a>
+                        &larr; Back to homepage
+                    </a>
+                </Link>
+            </h6>
         </Layout>
     )
 }
