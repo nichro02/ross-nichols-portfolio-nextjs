@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import Link from 'next/link'
+import Head from 'next/head'
+import Layout from '../components/layout'
 
 //components
 //import Spinner from './common/Spinner'
@@ -47,8 +49,10 @@ const Projects = () => {
 
     
     return(
-        <>
-        <div>Projects go here</div>
+        <Layout>
+        <Head>
+            <title>Projects</title>
+        </Head>
         <div className="container">
             <div className="row">{display()}</div>
         </div>
@@ -59,7 +63,7 @@ const Projects = () => {
                 </a>
             </Link>
         </h6>
-        </>
+        </Layout>
     )
 }
 
