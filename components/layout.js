@@ -10,21 +10,24 @@ const Layout = ({ children }) => {
                 <div>
                     <div className={styles.navLinkHeader}>
                     <Link href='/'>
-                        placeholder
-                    </Link>
-                    <span className={styles.navLinks}>
-                    <Link href='/'>
                         Home
                     </Link>
+                    <span className={styles.navLinks}>
+                    <span className={styles.link}>
                     <Link href='/about'>
                         About
                     </Link>
+                    </span>
+                    <span className={styles.link}>
                     <Link href='/projects'>
                         Projects
                     </Link>
+                    </span>
+                    <span className={styles.link}>
                     <Link href='/contact'>
                         Contact
                     </Link>
+                    </span>
                     </span>
                     </div>
                     <div className={styles.introBlock}>

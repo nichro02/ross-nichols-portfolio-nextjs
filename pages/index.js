@@ -12,7 +12,7 @@ export default function Home() {
     <Layout>
     <div className={styles.container}>
       <Head>
-        <title>Ross Nichols Portfolio</title>
+        <title>Ross Nichols - Software Engineer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
