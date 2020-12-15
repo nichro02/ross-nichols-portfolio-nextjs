@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
+import Link from 'next/link'
 
 //components
 //import Spinner from './common/Spinner'
@@ -49,8 +50,15 @@ const Projects = () => {
         <>
         <div>Projects go here</div>
         <div className="container">
-        <div className="row">{display()}</div>
+            <div className="row">{display()}</div>
         </div>
+        <h6>
+            <Link href='/'>
+                <a>
+                    &larr; Back to homepage
+                </a>
+            </Link>
+        </h6>
         </>
     )
 }
