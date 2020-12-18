@@ -22,7 +22,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Thanks for stopping by! You can learn more about me, view my projects, and find my contact information by clicking on the boxes below.
+          I'm Ross. Thanks for stopping by! I'm a software engineer who loves thinking about creative ways to solve problems. You can learn more about me, view my projects, and find my contact information by clicking on the boxes below.
         </p>
 
         <div className={styles.grid}>

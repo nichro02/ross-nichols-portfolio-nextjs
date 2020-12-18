@@ -5,26 +5,27 @@
 }
 
 .navBar {
-    background-color: #d2f8d2;
+    background-color: #82e8f3;
     height: 30%;
 }
 
 .introBlock {
-    width: 80%;
+    width: 100%;
 }
 
 .greetingText {
-    text-align: left;
-    display: inline-block;
+    text-align: center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     font-size: 300%;
     padding-left: 5%;
 }
 
 .introText {
-    text-align: left;
-    display: inline-block;
+    text-align: center;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5%;
@@ -33,7 +34,9 @@
 
 .navLinkHeader {
     height: 100%;
-    padding-left: 4%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

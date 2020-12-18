@@ -31,9 +31,9 @@ const Layout = ({ children }) => {
                     </span>
                     </div>
                     <div className={styles.introBlock}>
-                        <h1 className={styles.greetingText}>Hi, I'm Ross. </h1>
+                        <h1 className={styles.greetingText}>Ross Nichols </h1>
                         <h2 className={styles.introText}>
-                        I'm a software engineer who loves thinking about creative ways to solve problems
+                        Software Engineer
                         </h2>
                     </div>
                     
