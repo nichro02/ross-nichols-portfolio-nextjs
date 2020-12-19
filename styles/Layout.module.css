@@ -2,6 +2,7 @@
     max-width: 70rem;
     padding: 0 1rem;
     margin: 3rem auto 6rem;
+    padding-top: 80px;
 }
 
 .navBar {
@@ -13,6 +14,7 @@
     background-color: #82e8f3;
     height: 80px;
 }
+
 
 .introBlock {
     width: 100%;
@@ -72,7 +74,7 @@
 }
 
 .footerDiv {
-    width: 100%
+    width: 100%;
 }
 
 .footerLinks {

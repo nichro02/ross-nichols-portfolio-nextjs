@@ -10,7 +10,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <Layout>
-    <div className={styles.container}>
+      <div className={styles.container}>
       <Head>
         <title>Ross Nichols - Software Engineer</title>
         <link rel="icon" href="/favicon.ico" />
@@ -45,7 +45,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-    </div>
+      </div>
     </Layout>
   )
 }

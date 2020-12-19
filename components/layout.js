@@ -4,6 +4,21 @@ import styles from '../styles/Layout.module.css'
 
 
 const Layout = ({ children }) => {
+    
+    /*window.onscroll = function() {stickyHeader}
+
+    const header = document.getElementsByClassName('navBar')
+    const sticky = header.offsetTop
+
+    function stickyHeader() {
+        if(window.pageYOffset > sticky) {
+            header.classList.add('activeNavBar')
+        } else {
+            header.classList.remove('activeNavBar')
+        }
+    }
+    */
+    
     return (
         <>
             <nav className={styles.navBar}>
@@ -73,7 +88,7 @@ const Layout = ({ children }) => {
                         Contact
                     </Link>
                     </ul> */}
-                    <h6 className={styles.footerText}>Website created by Ross Nichols</h6>
+                    <h6 className={styles.footerText}>Website created by Ross Nichols, built on NextJS</h6>
                 </div>
             </footer>
         </>
